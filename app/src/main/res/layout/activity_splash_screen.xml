@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/blue"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    android:layout_height="match_parent"
+
+    tools:context=".SplashScreen">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="396dp"
+        android:layout_height="280dp"
+        app:srcCompat="@drawable/todolist" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="sans-serif"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:gravity="center"
+        android:text="GET ORGANIZED YOUR LIFE"
+        android:textColor="#F9F6EE"
+        android:textSize="29dp" />
+
+    <TextView
+        android:layout_width="321dp"
+        android:layout_height="88dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+
+        android:letterSpacing="0.3"
+
+        android:text="Tudy is simple task management app which helps you manage time"
+        android:textColor="#8A8686"
+        android:textSize="18sp" />
+
+</LinearLayout>
